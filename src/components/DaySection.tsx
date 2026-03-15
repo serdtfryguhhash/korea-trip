@@ -58,11 +58,10 @@ export function DaySection({
 
       {/* Location cards */}
       <div className="grid gap-4 sm:pl-12">
-        {locations.map((location, index) => (
+        {locations.map((location) => (
           <LocationCard
             key={location.name}
             location={location}
-            index={index}
           />
         ))}
       </div>

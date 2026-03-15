@@ -16,10 +16,9 @@ const categoryLabels: Record<Location["category"], string> = {
 
 interface LocationCardProps {
   location: Location;
-  index?: number;
 }
 
-export function LocationCard({ location, index = 0 }: LocationCardProps) {
+export function LocationCard({ location }: LocationCardProps) {
   const {
     name,
     nameKr,
