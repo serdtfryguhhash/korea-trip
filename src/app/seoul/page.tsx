@@ -52,11 +52,10 @@ export default function SeoulPage() {
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {section.locations.map((location, index) => (
+            {section.locations.map((location) => (
               <LocationCard
                 key={location.name}
                 location={location}
-                index={index}
               />
             ))}
           </div>
