@@ -12,7 +12,7 @@ export default function BusanPage() {
         city={busan.city}
         cityKr={busan.cityKr}
         dates={busan.dates}
-        description="South Korea's coastal jewel. Busan pairs dramatic seaside cliffs with bustling fish markets, pastel-painted hillside villages, and golden beaches perfect for sunset chimaek — fried chicken and beer by the waves."
+        description="South Korea's coastal jewel. Busan pairs dramatic seaside cliffs with bustling fish markets, pastel-painted hillside villages, and golden beaches perfect for sunset chimaek: fried chicken and beer by the waves."
       />
 
       {/* ── Hotel ────────────────────────────────────────────── */}
@@ -59,7 +59,7 @@ export default function BusanPage() {
             <div className="text-left">
               <p className="text-stone-500 text-xs uppercase tracking-wider">Departure</p>
               <p className="text-stone-200 font-display font-semibold">
-                March 20 — Gimhae International Airport (PUS)
+                March 20 · Gimhae International Airport (PUS)
               </p>
             </div>
           </div>

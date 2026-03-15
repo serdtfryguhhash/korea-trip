@@ -14,7 +14,7 @@ export default function SeoulPage() {
         city={seoul.city}
         cityKr={seoul.cityKr}
         dates={seoul.dates}
-        description="A city where 600-year-old palaces sit beside neon-lit streets. Seoul is a masterclass in contrasts — ancient hanok villages, cutting-edge cafe culture, underground vintage markets, and some of the best street food on the planet."
+        description="A city where 600-year-old palaces sit beside neon-lit streets. Seoul is a masterclass in contrasts: ancient hanok villages, cutting-edge cafe culture, underground vintage markets, and some of the best street food on the planet."
       />
 
       {/* ── Hotel ────────────────────────────────────────────── */}

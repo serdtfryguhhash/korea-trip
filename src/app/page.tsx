@@ -112,7 +112,7 @@ export default function HomePage() {
           <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full glass border-gold-500/20">
             <span className="w-2 h-2 rounded-full bg-gold-400 today-pulse" />
             <span className="text-gold-400 text-sm font-medium">
-              Today is March 15 — Day 1 in Seoul
+              Today is March 15 · Day 1 in Seoul
             </span>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default function HomePage() {
           <div>
             <p className="text-stone-400 text-sm">Arrival</p>
             <p className="text-stone-100 font-display text-lg font-semibold">
-              March 15 — ICN Incheon International Airport
+              March 15 · ICN Incheon International Airport
             </p>
           </div>
         </div>
